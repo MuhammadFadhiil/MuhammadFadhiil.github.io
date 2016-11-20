@@ -1,0 +1,18 @@
+[1 of 1] Compiling Main             ( C:\Users\User\AppData\Local\Temp\stack7636\zip-archive-0.3.0.5\Setup.lhs, C:\Users\User\AppData\Local\Temp\stack7636\zip-archive-0.3.0.5\.stack-work\dist\b7fec021\setup\Main.o )
+Linking C:\Users\User\AppData\Local\Temp\stack7636\zip-archive-0.3.0.5\.stack-work\dist\b7fec021\setup\setup.exe ...
+Configuring zip-archive-0.3.0.5...
+Building zip-archive-0.3.0.5...
+Preprocessing library zip-archive-0.3.0.5...
+[1 of 1] Compiling Codec.Archive.Zip ( src\Codec\Archive\Zip.hs, .stack-work\dist\b7fec021\build\Codec\Archive\Zip.o )
+
+src\Codec\Archive\Zip.hs:100:1: warning: [-Wunused-top-binds]
+    Defined but not used: `versionMadeBy'
+
+src\Codec\Archive\Zip.hs:443:18: warning: [-Wunused-matches]
+    Defined but not used: `file'
+
+src\Codec\Archive\Zip.hs:443:23: warning: [-Wunused-matches]
+    Defined but not used: `epochtime'
+Installing library in
+C:\Users\User\AppData\Roaming\stack\snapshots\192cb04e\lib\x86_64-windows-ghc-8.0.1\zip-archive-0.3.0.5-2wE47511TC96MnZUpUBD7S
+Registering zip-archive-0.3.0.5...

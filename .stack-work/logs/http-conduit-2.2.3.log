@@ -1,0 +1,17 @@
+Configuring http-conduit-2.2.3...
+Building http-conduit-2.2.3...
+Preprocessing library http-conduit-2.2.3...
+[1 of 3] Compiling Network.HTTP.Client.Conduit ( Network\HTTP\Client\Conduit.hs, .stack-work\dist\b7fec021\build\Network\HTTP\Client\Conduit.o )
+[2 of 3] Compiling Network.HTTP.Simple ( Network\HTTP\Simple.hs, .stack-work\dist\b7fec021\build\Network\HTTP\Simple.o )
+
+Network\HTTP\Simple.hs:83:1: warning: [-Wdeprecations]
+    Module `Data.Aeson.Encode' is deprecated:
+      Use Data.Aeson or Data.Aeson.Text instead
+
+Network\HTTP\Simple.hs:326:46: warning: [-Wdeprecations]
+    In the use of `encode' (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+[3 of 3] Compiling Network.HTTP.Conduit ( Network\HTTP\Conduit.hs, .stack-work\dist\b7fec021\build\Network\HTTP\Conduit.o )
+Installing library in
+C:\Users\User\AppData\Roaming\stack\snapshots\192cb04e\lib\x86_64-windows-ghc-8.0.1\http-conduit-2.2.3-bTiNf1Jfwc41WIrf0VmGZ
+Registering http-conduit-2.2.3...

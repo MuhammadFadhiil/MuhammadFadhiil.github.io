@@ -1,0 +1,68 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-20 02:46:11.3000815 UTC
+
+interface webhaskell-0.1.0.0-G3xyQN2osLiGKWGHxJyv54:Lib 8001
+  interface hash: 702184bd333cb10c4120ce118496a26a
+  ABI hash: 6a0f278b208389dc2e9b2a44150783e6
+  export-list hash: a4db79a21bde76f36708063fb2404e8b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: a07d96964a09b86021c38df13b4617b7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.someFunc
+module dependencies:
+package dependencies: base-4.9.0.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+import  -/  base-4.9.0.0:Prelude 2d9cd8b0ec3d728f62b734df888d2e34
+import  -/  base-4.9.0.0:System.IO c1068c4f4231e3198e330f99a58145b0
+import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
+6e887c9c86d391912e159801a3510188
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
+6ef93804296a45b6a508507325f66492
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Lib"#) -}
+87e8f35230fcfc122c6ccde5e049a588
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "webhaskell-0.1.0.0-G3xyQN2osLiGKWGHxJyv54"#) -}
+7961358a865529bec6f0db13154afecb
+  someFunc :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+290d1e2e59dd55b6fa0acd6f17c7e253
+  someFunc1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Lib.someFunc2
+                   GHC.Types.True
+                   eta) -}
+287b14561859054814bc6692e3849663
+  someFunc2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "someFunc"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

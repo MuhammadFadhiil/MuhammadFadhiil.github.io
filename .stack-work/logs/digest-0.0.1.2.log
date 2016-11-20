@@ -1,0 +1,17 @@
+Configuring digest-0.0.1.2...
+Building digest-0.0.1.2...
+Preprocessing library digest-0.0.1.2...
+[1 of 2] Compiling Data.Digest.Adler32 ( .stack-work\dist\b7fec021\build\Data\Digest\Adler32.hs, .stack-work\dist\b7fec021\build\Data\Digest\Adler32.o )
+[2 of 2] Compiling Data.Digest.CRC32 ( .stack-work\dist\b7fec021\build\Data\Digest\CRC32.hs, .stack-work\dist\b7fec021\build\Data\Digest\CRC32.o )
+Installing library in
+C:\Users\User\AppData\Roaming\stack\snapshots\192cb04e\lib\x86_64-windows-ghc-8.0.1\digest-0.0.1.2-9LuiyJg7VGYrmroZqpo4K
+Registering digest-0.0.1.2...
+setup-Simple-Cabal-1.24.0.0-ghc-8.0.1.exe:
+'C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.0.1\bin\ghc-pkg.exe'
+exited with an error:
+digest-0.0.1.2: Warning: haddock-interfaces:
+C:\Users\User\AppData\Roaming\stack\snapshots\192cb04e\doc\digest-0.0.1.2\digest.haddock
+doesn't exist or isn't a file
+ghc-pkg.exe:
+C:\Users\User\AppData\Roaming\stack\snapshots\192cb04e\pkgdb\package.cache:
+you don't have permission to modify this file
